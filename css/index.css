@@ -1,0 +1,369 @@
+#menu {
+  padding: 0px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.995), rgb(11, 11, 11), rgb(0, 0, 0), rgb(0, 0, 0));
+  border-bottom: 1px solid white;
+
+}
+
+.active {
+  color: #10c0ec;
+}
+
+a {
+  color: white;
+  display: none;
+}
+
+a:hover {
+  color: #10c0ec;
+}
+
+.img {
+  height: 100%;
+  max-width: 100%;
+}
+
+.jumbotron {
+  box-shadow: 0 0 3em rgb(7, 7, 7);
+}
+
+
+.btnWhatsapp {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #10c0ec;
+  border-radius: 0.6em;
+  color: #10c0ec;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.btnWhatsapp:hover,
+.btn:focus {
+  color: #fff;
+  outline: 0;
+}
+
+
+.fifth {
+  border-color: #104bec;
+  border-radius: 5px;
+  color: #104bec;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+
+.fifth:after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 0;
+  height: 100%;
+  background: #10c0ec;
+  z-index: -1;
+  -webkit-transition: width 150ms ease-in-out;
+  transition: width 150ms ease-in-out;
+}
+
+.fifth:hover {
+  color: #fff;
+}
+
+.fifth:hover:after {
+  width: 110%;
+}
+
+.logo {
+  height: 4em;
+  width: 5em;
+  padding: 0;
+}
+
+
+.servicos {
+  padding: 10px;
+}
+
+.fundo {
+  background-image: url(../img/fundo.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+
+}
+
+.btnOrcamento {
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.btnOrcamento:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+  color: red;
+}
+
+.card {
+  width: 20rem;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  margin-top: 100px;
+}
+
+.imagem-footer {
+  width: 20em;
+  height: 20em;
+  margin-top: -150px;
+  position: relative;
+}
+
+.card-text {
+  font-size: 1em;
+}
+
+.card:hover {
+  box-shadow: 0 0 3em rgb(7, 7, 7);
+
+}
+
+.devCesar {
+  width: 40px;
+  height: 50px;
+}
+
+.fontDevCesar {
+  font-size: 0.7em;
+}
+
+.verMais {
+  background: rgba(0, 0, 0, 0.7) url('../img/Trabalho2.jpeg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+
+}
+
+.controleCarousel {
+  background-color: initial;
+  border: 0px;
+}
+
+
+.modalVisual {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modalConteudo {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 800px;
+}
+
+#txtImg {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.fechar {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.iconeWhatsapp {
+  position: fixed;
+  z-index: 1;
+  width: 3em;
+  height: 3em;
+  bottom: 5px;
+  right: 10px;
+}
+
+.logo-empresa {
+  border-radius: 20px;
+}
+
+.focus {
+  border: solid black 1px;
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+.focus:hover {
+  box-shadow: 0 0 3em rgb(7, 7, 7);
+
+}
+
+.img-cardHorizontal {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.subtitulo {
+  color: #10c0ec;
+}
+
+
+.formulario {
+  margin: 5px;
+  border: none;
+  border-bottom: 3px solid rgb(0, 51, 128);
+  padding-left: 3px;
+
+}
+
+.bloco-todo {
+  width: 90%;
+}
+
+.meio-todo {
+  width: 48%;
+}
+
+.endereco {
+  color: rgb(0, 51, 128);
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.cep {
+  width: 30%;
+}
+
+.lagradouro {
+  width: 58%;
+}
+
+.numero {
+  width: 20%;
+}
+
+.complemento {
+  width: 68%
+}
+
+.cidade {
+  width: 44%;
+}
+
+.estado {
+  width: 44%;
+}
+
+.btn_form {
+  width: 50% !important;
+  background-color: rgb(0, 51, 128);
+  color: white;
+  border: none;
+
+}
+
+.btn_form:hover {
+  border: 2px solid rgb(0, 51, 128);
+  background-color: rgb(0, 51, 128);
+  color: white;
+
+}
+
+.dados {
+  color: teal;
+}
+
+input[type='radio']:checked:after {
+  width: 17px;
+  height: 17px;
+  border-radius: 15px;
+  top: -4px;
+  left: -1px;
+  position: relative;
+  background-color: teal;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+.conteudo {
+  background-color: rgba(128, 128, 128, 0.018);
+}
+
+.envio{
+  width: 100%;
+  background-color: green;
+  color: white;
+}
+
+.balao{
+  padding: 20px 50px 50px 50px ;
+  width: 300px;
+  height: 200px;
+  background: url('../img/balaoComentario.png');
+}
+
+.satisfacao{
+  width: 300px;
+  height: 100px;
+}
+.usuario{
+  height: 80px;
+  width: 80px;
+  border-radius: 360px;
+  margin-left: 20px;
+
+}
+.comentario{
+  color: silver;
+}
